@@ -2064,3 +2064,50 @@ Recommended: 30.0.101.1340
 [2022.10.11-10.57.33:978][978]AssetCheck: New page: Asset Save: multiple assets
 [2022.10.11-10.57.33:978][978]LogContentValidation: Display: Validating Blueprint /Game/StarterContent/Maps/BP_Projectile.BP_Projectile
 [2022.10.11-10.57.33:978][978]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.10.11-12.28.25:046][104]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2022.10.11-12.28.25:047][104]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=16012
+[2022.10.11-12.28.25:366][105]LogHttp: Warning: 00000BE601AB8200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8FB58E1C-4554-74AF-BAE3-38852642F31D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=8da338ff4827a3f0959987ae91c56a2b%7C9b7a5ed6e81447a5a0f381b73d01c996%7Cb3548d65-743c-47e6-8927-55ea7d1cf4be&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.10.11-12.28.25:369][105]LogHttp: Warning: 00000BE601AB8200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.10.11-12.28.25:369][105]LogHttp: Warning: 00000BE601AB8200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0xbe5b30e0000 [can pipeline])
+[2022.10.11-12.28.25:369][105]LogHttp: Warning: 00000BE601AB8200: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2022.10.11-12.28.25:369][105]LogHttp: Warning: 00000BE601AB8200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.91.141.121) port 443 (#0))
+[2022.10.11-12.28.25:369][105]LogHttp: Warning: 00000BE601AB8200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.10.11-12.28.25:369][105]LogHttp: Warning: 00000BE601AB8200: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.10.11-12.28.25:369][105]LogHttp: Warning: 00000BE601AB8200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.10.11-12.28.25:369][105]LogHttp: Warning: 00000BE601AB8200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.10.11-12.28.25:369][105]LogHttp: Warning: 00000BE601AB8200: libcurl info message cache 7 (Closing connection 0)
+[2022.10.11-12.28.25:371][105]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8FB58E1C-4554-74AF-BAE3-38852642F31D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=8da338ff4827a3f0959987ae91c56a2b%7C9b7a5ed6e81447a5a0f381b73d01c996%7Cb3548d65-743c-47e6-8927-55ea7d1cf4be&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.10.11-12.28.26:618][105]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{2931389b-e1c3-4f6d-a3e0-9ad5af337009}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=1518.01
+[2022.10.11-12.28.26:630][105]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.10.11-12.28.26:642][106]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.10.11-12.28.27:226][108]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headset Earphone (Plantronics Blackwire 3220 Series), InstanceID=1
+[2022.10.11-12.28.27:226][108]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=16012
+[2022.10.11-12.39.02:309][109]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-634770ms], ThreadID=16012
+[2022.10.11-12.39.02:309][109]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2022.10.11-12.39.02:971][111]LogAudioMixer: Error: XAudio2System->CreateMasteringVoice() -> 0x88890004: AUDCLNT_E_DEVICE_INVALIDATED (line: 345) with Args (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{2ccb85d1-e1d8-417c-a4fb-678f962ed806} Name=Headset Earphone (Plantronics Blackwire 3220 Series))
+[2022.10.11-12.59.09:370][112]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-1206028ms], ThreadID=16012
+[2022.10.11-12.59.09:370][112]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.10.11-12.59.09:370][112]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headset Earphone (Plantronics Blackwire 3220 Series), InstanceID=1
+[2022.10.11-12.59.09:370][112]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2022.10.11-12.59.11:112][113]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{2931389b-e1c3-4f6d-a3e0-9ad5af337009}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=1610.77
+[2022.10.11-12.59.11:113][113]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.10.11-12.59.11:145][114]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.10.11-12.59.11:658][116]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headset Earphone (Plantronics Blackwire 3220 Series), InstanceID=1
+[2022.10.11-12.59.11:658][116]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=16012
+[2022.10.11-12.59.11:984][116]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{2ccb85d1-e1d8-417c-a4fb-678f962ed806}, Name=Headset Earphone (Plantronics Blackwire 3220 Series)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=321.74
+[2022.10.11-12.59.11:984][116]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.10.11-12.59.11:994][117]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.10.11-13.04.36:538][ 86]LogDerivedDataCache: C:/Users/11408/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.041 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.11-14.04.36:571][828]LogDerivedDataCache: C:/Users/11408/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.080 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.11-15.04.36:348][538]LogDerivedDataCache: C:/Users/11408/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.062 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.11-15.33.13:113][643]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2022.10.11-15.33.13:113][643]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=16012
+[2022.10.11-15.33.14:967][643]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{2931389b-e1c3-4f6d-a3e0-9ad5af337009}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=247.71
+[2022.10.11-15.33.14:968][643]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.10.11-15.33.14:993][644]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.10.11-15.33.16:234][648]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headset Earphone (Plantronics Blackwire 3220 Series), InstanceID=1
+[2022.10.11-15.33.16:234][648]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=16012
+[2022.10.11-15.33.16:903][649]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{2ccb85d1-e1d8-417c-a4fb-678f962ed806}, Name=Headset Earphone (Plantronics Blackwire 3220 Series)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=641.95
+[2022.10.11-15.33.16:904][649]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.10.11-15.33.16:916][650]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.10.11-16.04.36:364][247]LogDerivedDataCache: C:/Users/11408/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.061 and deleted 0 file(s) with total size 0 MiB.
